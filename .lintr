@@ -1,0 +1,34 @@
+linters: linters_with_defaults(
+    # lintr defaults: https://github.com/jimhester/lintr#available-linters
+    commented_code_linter = NULL,
+    indentation_linter(indent = 2L, hanging_indent_style = "tidy"),
+    line_length_linter = line_length_linter(200),
+    whitespace_linter = NULL,
+    return_linter = NULL,
+    object_length_linter = object_length_linter(40L),
+    object_name_linter = object_name_linter(styles = c("snake_case"))
+  )
+exclusions: list(
+    "R/check_meta.R" = list(
+      "indentation_linter" = c(144),
+      "line_length_linter" = c(221)
+    ),
+    "R/reporter-junit.R" = list(
+      "object_name_linter" = c(37)
+    ),
+    "R/tags.R" = list(
+      "indentation_linter" = c(85)
+    ),
+    "R/utils.R" = list(
+      "indentation_linter" = c(23)
+    ),
+    "tests/testthat/test-CheckMeta.R" = list(
+      "indentation_linter" = c(148)
+    ),
+    "tests/testthat/test-FormatRdSectionMeta.R" = list(
+      "indentation_linter" = c(74)
+    ),
+    "tests/testthat/test-JunitReporterMeta.R" = list(
+      "line_length_linter" = c(47)
+    )
+  )
