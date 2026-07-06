@@ -1,5 +1,5 @@
 Package: roxyreqs
-Title: Roxygen2-Style Metadata for Test Cases and Function Documentation
+Title: 'roxygen2'-Style Metadata for Test Cases and Function Documentation
 Version: 1.3.0
 Authors@R: c(
     person("Moritz", "Lang", email = "moritz.n.lang@gmail.com", role = c("aut", "cre")),
@@ -9,7 +9,7 @@ Authors@R: c(
   )
 Description: Extends 'roxygen2' to support '@meta' tags for documenting
   'testthat' test cases and function specifications. Includes a custom
-  JUnit reporter that exports test metadata as XML properties and
+  'JUnit' reporter that exports test metadata as XML properties and
   validation functions to ensure all exported functions and tests contain
   required tags. Designed for traceability between requirements and tests
   in regulated industries such as pharma and finance.

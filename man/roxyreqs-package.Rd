@@ -4,9 +4,9 @@
 \name{roxyreqs-package}
 \alias{roxyreqs}
 \alias{roxyreqs-package}
-\title{roxyreqs: Roxygen2-Style Metadata for Test Cases and Function Documentation}
+\title{roxyreqs: 'roxygen2'-Style Metadata for Test Cases and Function Documentation}
 \description{
-Extends 'roxygen2' to support '@meta' tags for documenting 'testthat' test cases and function specifications. Includes a custom JUnit reporter that exports test metadata as XML properties and validation functions to ensure all exported functions and tests contain required tags. Designed for traceability between requirements and tests in regulated industries such as pharma and finance.
+Extends 'roxygen2' to support '@meta' tags for documenting 'testthat' test cases and function specifications. Includes a custom 'JUnit' reporter that exports test metadata as XML properties and validation functions to ensure all exported functions and tests contain required tags. Designed for traceability between requirements and tests in regulated industries such as pharma and finance.
 }
 \seealso{
 Useful links:
